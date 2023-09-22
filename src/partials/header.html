@@ -1,0 +1,91 @@
+<header class="top-header" id="home">
+  <div class="top-header-container container">
+    <!-- НАВІГАЦІЯ -->
+    <nav class="header-menu-nav">
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <a class="header-menu-link index-color current-page" href="./index.html">Home</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link favorites-color" href="./favorites.html"
+            >Favorites</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ЛОГОТИП -->
+    <a class="header-logo" href="./index.html">
+      <span class="header-logo-part">tasty</span>treats.
+    </a>
+
+    <!-- ІКОНКИ: КОРЗИНА і РАДІІОБАТОН -->
+    <ul class="header-icon-list">
+      <!-- BASKET -->
+      <li
+        class="header-icon-list-item js-btn-basket js-open-modal"
+        data-modal="1"
+      >
+        <svg class="header-basket-icon">
+          <use href="./img/icons.svg#basket"></use>
+        </svg>
+      </li>
+      <!-- BURGER -->
+      <li class="header-icon-list-item">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="header-burger-icon">
+            <use href="./img/icons.svg#burger"></use>
+          </svg>
+        </button>
+      <!-- </li>
+      <liclass="header-icon-list-item">
+        <button type="button" id="darkTheme">dark</button>
+      </li> -->
+      <!-- SWITCH -->
+      <li class="header-icon-list-item theme" id="darkTheme">
+        <input
+          id="switch"
+          class="switch-input visually-hidden"
+          type="checkbox"
+        />
+        <label class="switch-label" for="switch"></label>
+        <span class="switch-span"></span>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="menu-mob js-menu-container" id="mobile-menu">
+  <button class="menu-mob-btn js-close-menu">
+    <svg class="menu-mob-close-btn">
+      <use href="./img/icons.svg#close"></use>
+    </svg>
+  </button>
+
+  <ul class="mobile-menu">
+    <li class="mobile-menu-items">
+      <a href="./index.html" class="mobile-menu-link">Home</a>
+    </li>
+    <li class="mobile-menu-items">
+      <a href="./favorites" class="mobile-menu-link">Favorites</a>
+    </li>
+  </ul>
+
+  <div class="mob-switch">
+    <input
+      id="switch-mob"
+      class="switch-input visually-hidden"
+      type="checkbox"
+    />
+    <label class="switch-label" for="switch-mob"></label>
+    <span class="switch-span"></span>
+  </div>
+</div>
+
+
+<!-- <script src="/js/star.js"></script> -->

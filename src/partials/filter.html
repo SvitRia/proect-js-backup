@@ -1,0 +1,66 @@
+<form class="main-products-container">
+  <div class="main-products-filter-form" id="main-products-filter-form">
+    <ul class="main-products-filter-form-list">
+      <li class="main-products-filter-form-item">
+        <label
+          class="main-products-filter-label"
+          for="main-products-filter-search-input"
+          >Search</label
+        >
+        <input
+          class="main-products-filter-search-select"
+          type="text"
+          id="main-products-filter-search-input"
+          autocomplete="off"
+          placeholder="Enter text"
+          name="searchQuery"
+        />
+      </li>
+      <li class="main-products-filter-form-item">
+        <label
+          class="main-products-filter-label"
+          for="main-products-filter-time-input"
+          >Time</label
+        >
+        <select
+          class="main-products-fiter-time-select"
+          id="main-products-filter-time-input"
+        >
+          <option value="">0 min</option>
+        </select>
+      </li>
+      <li class="main-products-filter-form-item">
+        <label
+          class="main-products-filter-label"
+          for="main-products-filter-area-input"
+          >Area</label
+        >
+        <select
+          class="main-products-filter-area-select"
+          id="main-products-filter-area-input"
+        >
+          <option value="">Region</option>
+        </select>
+      </li>
+      <li class="main-products-filter-form-item">
+        <label
+          class="main-products-filter-label"
+          for="main-products-filter-ingredients-input"
+          >Ingredients</label
+        >
+        <select
+          class="main-products-filter-ingredients-select"
+          id="main-products-filter-ingredients-input"
+        >
+          <option value="">Product</option>
+        </select>
+      </li>
+    </ul>
+  </div>
+  <button class="main-products-filter-form-reset-btn" type="button">
+    <svg class="main-products-search-form-reset-icon" width="16" height="16">
+      <use href="./img/icons.svg#close"></use>
+    </svg>
+    Reset the filter
+  </button>
+</form>

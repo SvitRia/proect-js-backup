@@ -1,0 +1,72 @@
+/*star*/
+.star-reiting-box {
+  width: 116px;
+  display: flex;
+  padding: 4px 0;
+  width: 116px;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .star-reiting-box {
+    width: 96px;
+  }
+}
+.star-icon-list {
+  width: 116px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .star-icon-list {
+    width: 96px;
+  }
+}
+.star-reiting-galary {
+  height: 18px;
+  color: var(--color-card-gallary);
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 2px;
+}
+.btn-detail-info {
+  display: flex;
+  min-height: 18px;
+}
+.star-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--gray-star-w);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .star-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .star {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.star-active {
+  color: var(--yellow-star);
+  letter-spacing: -4px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1279px) {
+  .rating {
+    display: flex;
+    font-size: 18px;
+  }
+}
+
+.star-recipe-reting-modal {
+  color: var(--gray-star-w2);
+}

@@ -1,0 +1,100 @@
+.order-now {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.btn-order-now-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  max-width: 440px;
+  height: 95%;
+  max-height: 600px;
+  border-radius: 15px;
+  padding: 32px 24px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  scale: 1.1;
+  z-index: 2;
+  overflow-y: auto;
+  background-color: var(--background-w);
+  transition: opacity var(--trns-modal), visibility var(--trns-modal),
+    scale var(--trns-modal);
+}
+
+.btn-close {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  border: none;
+  background: none;
+}
+
+.btn-close-icon {
+  stroke: var(--black);
+  transition: scale var(--trns-general);
+}
+
+.btn-close-icon:hover {
+  scale: 1.4;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+.input-name {
+  font-size: 14px;
+  background: var(--background-w);
+  color: var(--gray-title-w);
+}
+
+.form-field label {
+  margin-bottom: 5px;
+  display: block;
+}
+.form-field input,
+.form-field textarea {
+  display: block;
+  color: var(--gray-title-w);
+  width: 100%;
+  border-radius: 15px;
+  padding: 14px 18px;
+  background: var(--background-w);
+  border: 1px solid var(--gray-border-w)
+}
+
+.form-field textarea {
+  resize: none;
+}
+.form-comment {
+  margin-bottom: 35px;
+}
+
+.send {
+  border: none;
+  border-radius: 15px;
+  color: var(--white-w);
+  background-color: var(--green);
+  width: 100%;
+  height: 48px;
+  transition: color var(--trns-modal);
+}
+.send:hover,
+.send:focus {
+  color: var(--black);
+}
+
+/* .btn-order-now-container.isOpen {
+  transform: translate(0);
+  display: none;
+} */
+
+/* .is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  scale: 1.05;
+} */
